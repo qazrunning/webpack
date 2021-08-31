@@ -1,0 +1,51 @@
+{
+  "id": "2472619",
+  "name": "一车一档",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20863822",
+      "name": "重点关注",
+      "font_class": "zhongdianguanzhu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3456772",
+      "name": "车辆环检",
+      "font_class": "chelianghuanjian",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "10342711",
+      "name": "obd",
+      "font_class": "obd",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "12484858",
+      "name": "车辆检查",
+      "font_class": "cheliangjiancha",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "14292359",
+      "name": "黑烟车",
+      "font_class": "heiyanche",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "17827641",
+      "name": "摄像头",
+      "font_class": "camera",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>启动错误</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        body {
+            padding: 40px 100px;
+            font: 13px "Helvetica Neue", "Lucida Grande", "Arial";
+            background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));
+            background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);
+            background-repeat: no-repeat;
+            color: #555;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2 {
+            color: #343434;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-top: 10px;
+        }
+
+        #stack {
+            margin-left: 10px;
+            color: #af8787;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="/index.html">&larr; 返回主页</a>
+        <h1>framework</h1>
+        <h2 id="msg"></h2>
+        <pre id="stack"></pre>
+    </div>
+
+    <script>
+        var error = sessionStorage.getItem("error") || ""
+        var msg = error.substring(0, error.indexOf(" at "))
+        var stack = error.substring(error.indexOf(" at "))
+        document.querySelector("#msg").innerHTML = msg
+        document.querySelector("#stack").innerHTML = "&nbsp;&nbsp;" + stack
+    </script>
+</body>
+
+</html>

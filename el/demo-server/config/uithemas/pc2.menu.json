@@ -1,0 +1,151 @@
+[
+  {
+    "name": "stationMaintain",
+    "text": "站点管理",
+    "icon": "fa fa-home fa-lg"
+  },
+  {
+    "name": "vehicleManagement",
+    "text": "车辆信息录入",
+    "icon": "fa fa-car fa-lg"
+  },
+  {
+    "name": "reportManagement",
+    "text": "检测报告检索",
+    "icon": "fa fa-book  fa-lg"
+  },
+  {
+    "text": "业务审核",
+    "name": "hj-business-audits",
+    "icon": "fa fa-comments"
+  },
+  {
+    "name": "datumUpload",
+    "text": "资料上传",
+    "icon": "fa fa-cloud-upload  fa-lg"
+  },
+  {
+    "text": "菜单",
+    "name": "core-modulesNav",
+    "icon": "fa fa-navicon fa-lg",
+    "svg": "application",
+    "children": [
+      {
+        "text": "IM数据管理",
+        "children": [
+          {
+            "text": "维修厂管理",
+            "name": "MaintainFactory",
+            "iconbg": "linear-gradient(to right, #FFA500 , #EE9A00)",
+            "icon": "ivu-icon ivu-icon-ios-pricetags"
+          },
+          {
+            "text": "IM/车辆维修信息",
+            "name": "IM-repairInfo",
+            "iconbg": "linear-gradient(to right,#FFA500 , #EE9A00)",
+            "icon": "ivu-icon ivu-icon-ios-clipboard",
+            "description": "IM/车辆维修信息数据接入"
+          },
+          {
+            "text": "IM检测信息上报",
+            "name": "IM-InfoIM",
+            "iconbg": "linear-gradient(to right, #FFA500 , #EE9A00)",
+            "icon": "ivu-icon ivu-icon-ios-clipboard"
+          },
+          {
+            "text": "IM维修复检统计",
+            "name": "IM-fujianInfo",
+            "iconbg": "linear-gradient(to right, #FFA500 , #EE9A00)",
+            "icon": "ivu-icon ivu-icon-ios-clipboard"
+          },
+          {
+            "text": "IM尾气不合格报告",
+            "name": "IM-noQualifiedReport",
+            "iconbg": "linear-gradient(to right, #FFA500 , #EE9A00)",
+            "icon": "ivu-icon ivu-icon-ios-clipboard",
+            "description": "IM/筛选尾气不合格的报告"
+          }
+        ]
+      },
+      {
+        "text": "业务设置",
+        "icon": "ivu-icon ivu-icon-ios-construct",
+        "children": [
+          {
+            "text": "受理审核设置",
+            "name": "hj-acceptAuditSetting",
+            "iconbg": "linear-gradient(to right, #1CDFD4 , #1CBFD4)",
+            "icon": "ivu-icon ivu-icon-md-bowtie",
+            "description": "受理审核原因，是否启动人工或自动审核"
+          }
+        ]
+      },
+      {
+        "text": "特殊业务办理",
+        "icon": "fa fa-lock fa-lg",
+        "children": [
+          {
+            "text": "多检审核修改",
+            "name": "hj-mutiAuditEdit",
+            "iconbg": "linear-gradient(to right, #62B866 , #48A44C)",
+            "icon": "ivu-icon ivu-icon-md-color-filter"
+          },
+          {
+            "text": "多受理审核修改",
+            "name": "hj-mutiAcceptanceAuditEdit",
+            "iconbg": "linear-gradient(to right, #62B866 , #48A44C)",
+            "icon": "ivu-icon ivu-icon-md-color-filter"
+          }
+        ]
+      },
+      {
+        "text": "系统管理",
+        "icon": "fa fa-lock fa-lg",
+        "children": [
+          {
+            "text": "权限管理",
+            "name": "core-privilegeManager",
+            "iconbg": "linear-gradient(to right, #1CDFD4 , #1CBFD4)",
+            "icon": "fa fa-expeditedssl fa-lg"
+          },
+          {
+            "text": "用户管理",
+            "name": "core-userManager",
+            "iconbg": "linear-gradient(to right, #1CDFD4 , #1CBFD4)",
+            "icon": "fa fa-user-plus fa-lg"
+          },
+          {
+            "text": "用户管理2",
+            "name": "userManager",
+            "iconbg": "linear-gradient(to right, #1CDFD4 , #1CBFD4)",
+            "icon": "fa fa-user-circle-o fa-lg"
+          },
+          {
+            "text": "角色管理",
+            "name": "core-roleManager",
+            "iconbg": "linear-gradient(to right, #1CDFD4 , #1CBFD4)",
+            "icon": "fa fa-user-circle-o fa-lg"
+          },
+          {
+            "text": "菜单配置",
+            "name": "core-menusSetting",
+            "iconbg": "linear-gradient(to right, #1CDFD4 , #1CBFD4)",
+            "icon": "fa fa-cog fa-lg"
+          },
+          {
+            "text": "系统配置",
+            "name": "core-systemSetting",
+            "iconbg": "linear-gradient(to right, #1CDFD4 , #1CBFD4)",
+            "icon": "fa fa-cog fa-lg"
+          },
+          {
+            "text": "操作日志",
+            "name": "core-logManage",
+            "iconbg": "linear-gradient(to right, #1CDFD4 , #1CBFD4)",
+            "icon": "fa fa-file-code-o fa-lg"
+          }
+        ]
+      }
+    ]
+  }
+]

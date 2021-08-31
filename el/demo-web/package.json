@@ -1,0 +1,46 @@
+{
+  "name": "demo",
+  "version": "1.0.1",
+  "description": "A Vue.js project",
+  "author": "skyland",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@jiaminghi/charts": "^0.2.7",
+    "@jiaminghi/data-view": "^2.4.5",
+    "@skyland/core": "^1.2.129",
+    "@skyland/fxchart": "^1.0.20",
+    "@skyland/fxlogger": "^0.3.0",
+    "@skyland/fxlogin2": "^1.1.80",
+    "@skyland/gis": "^1.2.20",
+    "bluebird": "^3.7.2",
+    "core-js": "2.6.5",
+    "countup": "^1.8.2",
+    "echarts": "4.2.1",
+    "echarts-liquidfill": "^2.0.6",
+    "exif-js": "^2.3.0",
+    "file-saver": "^2.0.2",
+    "jszip": "^3.5.0",
+    "mavon-editor": "^2.9.0",
+    "v-viewer": "^1.5.1",
+    "vue": "2.6.10",
+    "vue-router": "3.0.1",
+    "vue-virtual-scroller": "^1.0.10",
+    "vuex": "3.0.1",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "3.10.0",
+    "@vue/cli-service": "3.10.0",
+    "dart-sass": "1.21.0",
+    "less": "2.7.3",
+    "less-loader": "5.0.0",
+    "sass": "1.21.0",
+    "sass-loader": "7.1.0",
+    "svg-sprite-loader": "4.1.6",
+    "vue-template-compiler": "2.6.10"
+  }
+}

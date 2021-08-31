@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+
+<body>
+  <script>
+
+    // 提取url中的解析参数
+    document.QueryDict = (function () {
+      var searchstr = window.location.search;
+      if (!searchstr) return {};
+      var str = window.location.search.split("?")[1];
+      var items = str.split("&");
+      var dict = {};
+
+      for (var i = 0, l = items.length; i < l; i++) {
+        var arr = items[i].split("=");
+        var name = arr[0];
+        var value = arr[1];
+        dict[name] = value;
+      }
+      return dict;
+    })();
+
+
+    var MainWin = parent.parent.window;//利用主-》子-》主，然后反向访问的方法，来实现跨域，这个方式要慎用
+    if (MainWin && MainWin.core_hookRelogin && document.QueryDict["method"]) MainWin.core_hookRelogin(document.QueryDict["method"]);
+
+
+  </script>
+</body>
+
+</html>

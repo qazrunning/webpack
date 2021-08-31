@@ -1,0 +1,9 @@
+<template>
+  <div>
+    状态：{{msg}}
+    <fx-uploadbox :Opts="opts" style="cursor: pointer;">
+      <div style="border:white 1px dotted;width: 100px;height: 100px;">在范围内可以点击上传也可以拖拽</div>
+    </fx-uploadbox>
+    <div v-for="(item, index) in items" :key="index">{{item}}</div>
+  </div>
+</template>
